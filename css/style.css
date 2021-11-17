@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap');
+:root {
+    --background: linear-gradient(135deg, #85780b7e 0%, #f5b50698 100%);
+    --color-primary: hsl(49, 88%, 48%);
+    --color-secondary: #a2954b;
+    --boton-padding: 20px 40px;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: rgb(241, 178, 51);
+    margin: 1em;
+}
+
+
+/*-----------*/
+
+
+/*HEADER*/
+
+
+/*-----------*/
+
+.header {
+    width: 100%;
+    background: rgb(236, 236, 13);
+}
+
+
+/*MENU*/
+
+.logo {
+    width: 70px;
+    cursor: pointer;
+}
+
+nav {
+    height: 80px;
+}
+
+nav img {
+    width: 150px;
+    position: absolute;
+    top: 17px;
+    left: 12%;
+}
+
+nav ul {
+    float: right;
+    margin-right: 25px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    position: relative;
+    color: black;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+label #btn,
+label #cancel {
+    color: white;
+    font-size: 30px;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+
+/*------------*/
+
+
+/*GALERIA*/
+
+
+/*------------*/
+
+img {
+    max-width: 100%;
+    margin-bottom: 0.5em;
+    display: block;
+    cucursor: pointer;
+}
+
+.gallery {
+    width: 100%;
+    columns: 4 320px;
+    column-gap: 0.5em;
+}
+
+
+/*FOOTER*/
+
+footer {
+    width: 100%;
+    padding: 5px;
+    margin: 5px 10px;
+}
+
+.redes {
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.redes a {
+    margin-top: 10px;
+    align-items: center;
+    font-size: 30px;
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    cursor: pointer;
+}
